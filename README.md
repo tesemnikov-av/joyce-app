@@ -9,7 +9,7 @@ This application predicted time series and finds deviations of current values fr
     
 Grafana | Restricted Demonstration Stand
 ------|------
-link        |   [Grafana: Restricted Demonstration Stand](http://10.109.247.95:3000/d/2GCJf21Mk/joyce-restricted-demonstration-stand?from=1606998045019&orgId=1&to=1607936331698&var-hostname=protva14)
+link        |   [Grafana: Restricted Demonstration Stand](none)
 user       |   oper
 password   |   oper
 
