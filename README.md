@@ -12,15 +12,7 @@ This application predicted time series and finds deviations of current values fr
 - Zabbix
 - Statsmodels (ARIMA)
     
-Grafana | Restricted Demonstration Stand
-------|------
-link        |   Grafana: Restricted Demonstration Stand (none)
-user       |   oper
-password   |   oper
-
 ![Exaple1](./pics/example1.png)
-
-
 
 If the difference between the maximum and minimum values is less than threshold (for example 5), 
 then we will predict the average value. Otherwise, the prediction algorithm goes crazy.
