@@ -13,8 +13,8 @@ from influxdb import DataFrameClient
 import statsmodels.api as sm
 from datetime import datetime
 
-from libs.timeseries import write, Prospector, Quacksalver, StoreKeeper
-from libs.journeyman import rename, split_file_names
+from timeseries import write, Prospector, Quacksalver, StoreKeeper
+from journeyman import rename, split_file_names
 
 config = configparser.ConfigParser()
 config.read('/joyce/app/joyce.conf')
