@@ -8,8 +8,6 @@
 
 ## Dependencies
 
-Joyce requires:
-
 - Python
 - Zabbix
 - InfluxDB
