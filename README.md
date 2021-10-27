@@ -14,8 +14,7 @@ This application predicted time series and finds deviations of current values fr
 - Zabbix
 - Statsmodels (ARIMA)
 
-Dependencies
-~~~~~~~~~~~~
+## Dependencies
 
 Joyce requires:
 
