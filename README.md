@@ -14,6 +14,16 @@ This application predicted time series and finds deviations of current values fr
 - Zabbix
 - Statsmodels (ARIMA)
 
+Dependencies
+~~~~~~~~~~~~
+
+Joyce requires:
+
+- Python (>= |PythonMinVersion|)
+- NumPy (>= |NumPyMinVersion|)
+- SciPy (>= |SciPyMinVersion|)
+- Statmodels (>= |SciPyMinVersion|)
+
 ## Installation
 
 Snorkel requires Python 3.6 or later. To install Joyce, we recommend using `pip`:
@@ -24,12 +34,10 @@ pip install snorkel
 ## Configuration
 
 ```bash
-#
-vi joyce.conf
-# add run
+# Set correct values for zabbix and influxdb 
+>> vi joyce.conf
+# and run app.py every 23:00 (for example)
 >> crontab -e
->>
->>
 ```
 
 
