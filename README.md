@@ -14,7 +14,7 @@ This application predicted time series and finds deviations of current values fr
 
 ## Installation
 
-Snorkel requires Python 3.6 or later. To install Snorkel, we recommend using `pip`:
+Snorkel requires Python 3.6 or later. To install Joyce, we recommend using `pip`:
 
 ```bash
 pip install snorkel
