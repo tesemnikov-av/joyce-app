@@ -16,6 +16,7 @@
 ## Configuration
 
 ```bash
+>> JOYCE_PASSWORD=hash_passowrd_base64; export JOYCE_PASSWORD
 # Set correct values for zabbix and influxdb 
 >> vi joyce.conf
 # and run app.py every 23:00 (for example)
