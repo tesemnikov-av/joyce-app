@@ -12,6 +12,15 @@ This application predicted time series and finds deviations of current values fr
 - Zabbix
 - Statsmodels (ARIMA)
 
+## Installation
+
+Snorkel requires Python 3.6 or later. To install Snorkel, we recommend using `pip`:
+
+```bash
+pip install snorkel
+```
+
+
 ![Exaple1](./pics/example1.png)
     
 If the difference between the maximum and minimum values is less than threshold (for example 5), 
