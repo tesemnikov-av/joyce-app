@@ -21,6 +21,16 @@ Snorkel requires Python 3.6 or later. To install Joyce, we recommend using `pip`
 ```bash
 pip install snorkel
 ```
+## Configuration
+
+```bash
+#
+vi joyce.conf
+# add run
+>> crontab -e
+>>
+>>
+```
 
 
 ![Exaple1](./pics/example1.png)
