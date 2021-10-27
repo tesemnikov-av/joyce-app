@@ -18,18 +18,10 @@ This application predicted time series and finds deviations of current values fr
 
 Joyce requires:
 
-- Python (>= |PythonMinVersion|)
-- NumPy (>= |NumPyMinVersion|)
-- SciPy (>= |SciPyMinVersion|)
-- Statmodels (>= |SciPyMinVersion|)
+- Python
+- Zabbix
+- Statmodels
 
-## Installation
-
-Snorkel requires Python 3.6 or later. To install Joyce, we recommend using `pip`:
-
-```bash
-pip install snorkel
-```
 ## Configuration
 
 ```bash
