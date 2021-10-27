@@ -4,15 +4,7 @@
 
 ![watch](https://img.shields.io/github/watchers/tesemnikov-av/Pelevin-recomendation-bot?style=social) 
 
-
-
 # Joyce : Anomaly Detection with Time Series Forecasting
-
-This application predicted time series and finds deviations of current values from values predicted by the model. Using the difference in these values, we want to notice the abnormal load.
-
-- Python3
-- Zabbix
-- Statsmodels (ARIMA)
 
 ## Dependencies
 
@@ -20,6 +12,7 @@ Joyce requires:
 
 - Python
 - Zabbix
+- InfluxDB
 - Statmodels
 
 ## Configuration
@@ -31,6 +24,7 @@ Joyce requires:
 >> crontab -e
 ```
 
+This application predicted time series and finds deviations of current values from values predicted by the model. Using the difference in these values, we want to notice the abnormal load.
 
 ![Exaple1](./pics/example1.png)
     
